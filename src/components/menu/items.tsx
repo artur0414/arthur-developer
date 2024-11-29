@@ -1,13 +1,9 @@
-// Menu component: When the user clicks on the menu button, the Items component will be displayed with the navigation items and social media links.
-
-"use client";
-
+import React, { useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { socialMedia } from "../contacts/socialMedia";
 import { bigShouldersText } from "@/app/[locale]/fonts";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import React from "react";
 
 interface ItemsProps {
   handleOpen: (value: boolean) => void;
@@ -17,6 +13,17 @@ export default function Items({ handleOpen }: ItemsProps) {
   const t = useTranslations("Menu");
   const items = useTranslations("Menu.itemsList");
   const itemsList = ["item1", "item2", "item3", "item4"] as const;
+
+  // Ref para el contenedor principal del modal
+  const modalRef = useRef<HTMLDivElement>(null);
+
+  // Función para manejar el clic fuera del modal
+  const handleClickOutside = (e: React.MouseEvent) => {
+    if (modalRef.current && !modalRef.current.contains(e.target as Node)) {
+      handleOpen(false);
+    }
+  };
+
   const handleScroll = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -28,12 +35,16 @@ export default function Items({ handleOpen }: ItemsProps) {
   };
 
   return (
-    <div className="absolute left-0 top-0 bg-black/70 w-screen h-screen overflow-hidden">
+    <div
+      onClick={handleClickOutside} // Se ejecuta cuando se hace clic fuera del modal
+      className="absolute left-0 top-0 bg-black/70 w-screen h-screen overflow-hidden"
+    >
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.5 }}
         className="relative py-5 px-5 bg-custom-black w-[80%] h-screen flex flex-col gap-10 lg:w-[60%] lg:px-20"
+        ref={modalRef} // Añadir la referencia para identificar el área del modal
       >
         <motion.h4
           initial={{ opacity: 0, y: 50 }}
