@@ -1,0 +1,71 @@
+{
+    "Header": {
+        "language": "ES",
+        "switch": "EN",
+        "alt": "Ilustración de logotipo blanco con las letras A y D combinadas en un diseño creativo."
+    },
+    "Hero": {
+        "description": "Hey! Soy Arthur Dev, me especializo en crear experiencias digitales a través de un diseño UI/UX y desarrollo web personalizado.",
+        "alt": "Imagen de Arthur Dev de pie en un paisaje urbano."
+    }, 
+    "About": {
+        "title": "ACERCA DE",
+        "subtitle": "ARTHUR ACOSTA",
+        "bio": "BIO",
+        "bioText1": "¡Hola! Soy Arthur Acosta de Colombia. Ya sea implementando principios de diseño responsivo, optimizando rendimiento de sitios web o experimentando con nuevos frameworks, estoy comprometido a estar a la vanguardia de lo que es posible en el ámbito digital.",
+        "bioText2": "Exploro constantemente nuevas tecnologías y me mantengo al día con las últimas tendencias en desarrollo web para asegurarme de que mis habilidades estén siempre a la vanguardia.",
+        "skills": "Intereses y Conocimientos",
+        "alt": "Foto de Arthur Dev, con un filtro blanco y negro, sentado en frente de un computador mientras programa"
+    }, 
+    "Projects": {
+        "titles": "PROYECTOS EXPERIENCIA TRABAJOS PORTAFOLIO",
+        "button": "VER MÁS",
+        "projectsList": {
+            "project1": {
+                "id": "1",
+                "name": "CacaoApi",
+                "description": "CacaoAPI es una API RESTful para gestionar datos sobre el cultivo de cacao, especialmente para el cacao colombiano, ofreciendo información sobre plantas y clones para agricultores y desarrolladores.",
+                "image": "/img/cacao-api.png",
+                "url": "https://github.com/artur0414/cacao-api",
+                "alt": "Imagen del tablero de CacaoApi donde se puede ver una visión general del proyecto"
+            },
+            "project2": {
+                "id": "2",
+                "name": "Ilustración de Jake",
+                "description": "Ilustración de Jake el Perro utilizando SASS y HTML",
+                "image": "/img/jake.png",
+                "url": "https://codepen.io/Artur-Acosta/pen/NWVrdmV",
+                "alt": "Ejemplo de ilustración de Jake el perro"
+            },
+            "project3": {
+                "id" : "3",
+                "name": "Ilustración de Rick",
+                "description": "Ilustración de Rick Sánchez utilizando HTML y CSS",
+                "image": "/img/rick.png",
+                "url": "https://codepen.io/Artur-Acosta/pen/MWdbpoY",
+                "alt": "Ejemplo de ilustración de Rick Sánchez"
+            }
+        }        
+    },
+    "Contact": {
+        "title": "CONTACTO",
+        "description": "¿Listo para llevar tu proyecto en línea? ¡Hagámoslo realidad juntos! Ponte en contacto y trabajemos en tu sitio web para hacerlo destacar en la web.",
+        "social": "Redes Sociales",
+        "outro": "¡Gracias por vernos!",
+        "year": "2024"
+    },
+    "Menu": {
+        "title": "Naveguemos a",
+        "open": "MENÚ",
+        "close": "CERRAR",
+        "itemsList": {
+            "item1": {"id": "1", "name": "INICIO", "href": "home"},
+            "item2": {"id": "2", "name": "ACERCA DE", "href": "about"},
+            "item3": {"id": "3", "name": "PROYECTOS", "href": "projects"},
+            "item4": {"id": "4", "name": "CONTACTO", "href": "contacts"}
+        }
+    }, 
+    "Loader": {
+        "loading": "Cargando..."
+    }
+  }
