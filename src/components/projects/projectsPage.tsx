@@ -18,7 +18,7 @@ export default function ProjectsComponent() {
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="absolute bg-custom-white w-screen h-screen flex flex-col gap-10 z-50 overflow-x-hidden md:p-4 lg:p-10 scroll-hidden"
+        className="absolute bg-custom-white w-screen h-[100vh] flex flex-col gap-10 z-50 overflow-x-hidden md:p-4 lg:p-10 scroll-hidden"
       >
         <div>
           <h2 className={`${bigShouldersText.className} text-5xl`}>PROJECTS</h2>
