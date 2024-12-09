@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Arthur Developer",
     description:
       "Web developer specializing in React, Tailwind, and TypeScript, creating fast, responsive user experiences optimized for exceptional performance.",
-    url: "https://www.tusitio.com", // Cambia esto por tu URL
+    url: "https://www.tusitio.com",
     type: "website",
   },
 };
@@ -43,12 +43,15 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <head>
-        {/* Incluye los metadatos SEO en el head */}
         <meta
           name="description"
           content="Web developer passionate about creating seamless user experiences with React, Tailwind, and TypeScript, ensuring fast, responsive websites for optimal performance."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="google-site-verification"
+          content="Epz8IMUZVzsxVI7EhyfTUy5vgIy5G397I9LXV8GNqtc"
+        />
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body
