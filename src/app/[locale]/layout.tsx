@@ -63,8 +63,8 @@ export default async function LocaleLayout({
           <Menu />
         </NextIntlClientProvider>
         <Cursor />
+        <Analytics /> 
       </body>
-      <Analytics /> 
     </html>
   );
 }
