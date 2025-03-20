@@ -8,6 +8,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Cursor from "@/components/ui/cursor";
 import { SupportedLocale } from "@/types/Locale";
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: "Arthur Developer",
@@ -63,6 +64,7 @@ export default async function LocaleLayout({
         </NextIntlClientProvider>
         <Cursor />
       </body>
+      <Analytics /> 
     </html>
   );
 }
