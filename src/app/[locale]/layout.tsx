@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Arthur Developer",
     description:
       "Web developer specializing in React, Tailwind, and TypeScript, creating fast, responsive user experiences optimized for exceptional performance.",
-    url: "https://www.tusitio.com",
+    url: "https://arthur-developer.vercel.app/",
     type: "website",
   },
 };

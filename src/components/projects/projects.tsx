@@ -67,7 +67,7 @@ export default function Projects() {
           >
             <Image
               className="w-[80%] filter saturate-[0.8]"
-              src="/img/project1-react.png"
+              src="/img/cacao-api.png"
               alt={t("projectsList.project1.alt")}
               width={1200}
               height={800}

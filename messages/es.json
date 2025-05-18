@@ -25,7 +25,7 @@
                 "id": "1",
                 "name": "CacaoApi",
                 "description": "CacaoAPI es una API RESTful para gestionar datos sobre el cultivo de cacao, especialmente para el cacao colombiano, ofreciendo información sobre plantas y clones para agricultores y desarrolladores.",
-                "image": "/img/project1-react.png",
+                "image": "/img/cacao-api.png",
                 "url": "https://github.com/artur0414/cacao-api",
                 "alt": "Imagen del tablero de CacaoApi donde se puede ver una visión general del proyecto"
             },
