@@ -16,7 +16,7 @@ export default function Header() {
       <Button variant={"ghost"} size={"sm"}>
         <a href="">
           <Image
-            src="/img/logo.svg"
+            src="/img/arthur-logo.svg"
             alt={t("alt")}
             width={30}
             height={30}

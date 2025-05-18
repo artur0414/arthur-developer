@@ -69,7 +69,7 @@ export default function About() {
       <div className="w-full flex justify-center py-8">
         <Image
           className="w-[70%]"
-          src="/img/Artur2.jpg"
+          src="/img/arthur-body.jpg"
           alt={t("alt")}
           width={1200}
           height={800}

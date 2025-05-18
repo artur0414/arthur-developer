@@ -14,6 +14,21 @@ export const metadata: Metadata = {
   title: "Arthur Developer",
   description:
     "Web developer passionate about creating seamless user experiences with React, Tailwind, and TypeScript, ensuring fast, responsive websites for optimal performance.",
+  keywords: [
+    "Arthur Dev",
+    "desarrollador full stack",
+    "React",
+    "Next.js",
+    "Spring Boot",
+    "Tailwind CSS",
+    "TypeScript",
+    "SQL",
+    "frontend developer",
+    "backend developer",
+    "UX UI designer",
+    "desarrollador Colombia",
+    "portfolio developer",
+  ],
   // Open Graph metadata
   openGraph: {
     title: "Arthur Developer",
@@ -46,8 +61,8 @@ export default async function LocaleLayout({
       <head>
         <meta
           name="description"
-          content="Web developer passionate about creating seamless user experiences with React, Tailwind, and TypeScript, ensuring fast, responsive websites for optimal performance."
-        />
+          content="Arthur Dev, desarrollador full stack, React, Next.js, Spring Boot, Tailwind CSS, TypeScript, SQL, frontend developer, backend developer, UX UI designer, desarrollador Colombia, portfolio developer"
+          />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="google-site-verification"

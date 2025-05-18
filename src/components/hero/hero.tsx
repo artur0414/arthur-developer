@@ -47,7 +47,7 @@ export default function Hero() {
         {/* Provitional Image to display */}
         <Image
           className="md:w-[70%] "
-          src="/img/Artur1.jpg"
+          src="/img/arthur-hero.png"
           alt={t("alt")}
           width={1200}
           height={800}
